@@ -157,10 +157,10 @@ ul>li {
 
 /* this is the mindset section */
 .mindset {
-     
+
      background-image: url('/resorce/gradient1.png'), url('/resorce/watch.png');
-     background-position: top left, top right;
-     background-size: cover, contain;
+     background-position: top left, center;
+     background-size: cover, cover;
      background-repeat: no-repeat, no-repeat;
      width: 100%;
      height: 300px;
@@ -181,15 +181,69 @@ ul>li {
      line-height: normal;
      width: 459px;
 }
+
 /* this is the footer section */
+footer {
+     background: #151414;
+     width: 100%;
+     height: 577px;
+}
 
+.future-continer {
+     display: flex;
+     justify-content: space-around;
+}
 
-.primary-text{
+.primary-text {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 485px;
+}
+
+.future-title {
+     color: #F8F8F8;
+
+     font-size: 45px;
+
+     font-weight: 700;
+
+}
+
+button {
+     
+
+     width: 160px;
+     height: 64px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #005FAC;
+     color: #fff;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 600;
+     border: 0px;
+     
+}
+
+.input-title {
      color: #FFF;
 
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
-width: 485px;
+     font-size: 25px;
+
+     font-weight: 600;
+
+}
+input{
+     width: 325px;
+height: 64px;
+
+border-radius: 8px;
+border: 1px solid #FFF;
+text-align: center;
+}
+.future-second-div{
+     display: flex;
+     flex-direction: column;
 }
