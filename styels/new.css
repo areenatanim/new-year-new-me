@@ -74,14 +74,14 @@ main {
 .failures-img {
      width: 451px;
      height: 898px;
-     
+
 }
 
 .failures-discription {
      width: 416px;
      margin-left: 134px;
      text-align: left;
-     
+
 }
 
 .failures-titel {
@@ -110,4 +110,86 @@ ul>li {
      /* Change color as needed */
      margin-right: 8px;
      /* Space between icon and text */
+}
+
+/* this is the plans section */
+.plans-title {
+     color: #151414;
+     text-align: center;
+     font-family: "Work Sans";
+     font-size: 40px;
+     font-weight: 700;
+
+}
+
+.plans-continer {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.plans-cared {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.card-titel {
+     color: #151414;
+     font-size: 30px;
+     font-weight: 700;
+
+}
+
+.card-discription {
+     color: #737272;
+     font-size: 25px;
+     font-weight: 500;
+
+}
+
+.plans-cared>img {
+     align-items: center;
+     margin-left: 30px;
+     padding-left: 300px;
+}
+
+/* this is the mindset section */
+.mindset {
+     
+     background-image: url('/resorce/gradient1.png'), url('/resorce/watch.png');
+     background-position: top left, top right;
+     background-size: cover, contain;
+     background-repeat: no-repeat, no-repeat;
+     width: 100%;
+     height: 300px;
+     border-radius: 8px;
+     padding-left: 100px;
+     padding-top: 20px;
+     margin-bottom: 50px;
+
+
+}
+
+.mindset-title {
+     color: #FFF;
+     font-family: "Work Sans";
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     width: 459px;
+}
+/* this is the footer section */
+
+
+.primary-text{
+     color: #FFF;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+width: 485px;
 }
