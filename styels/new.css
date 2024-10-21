@@ -1,14 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* this is the sheard style section */
-*{
+* {
      font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+     width: 160px;
+     height: 64px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background: #FFF;
+     color: #005FAC;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 600;
+     border: 0px;
+
 }
 
 
 /* this is the header section */
-.header{
+.header {
+     background-image: url('/resorce/banner/banner3.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%px;
+     height: 808px;
+     flex-shrink: 0;
+}
+
+.banner {
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+     justify-content: flex-end;
+     padding: 216px;
+}
+
+.banner-titel {
+     color: #FFF;
+     text-align: right;
+     font-size: 65px;
+     font-weight: 700;
+     width: 525px;
 
 }
-.banner{
-     align-items: end;
+
+.banner-discription {
+     color: #FFF;
+     text-align: right;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 494px;
+}
+
+/* this is the main section */
+main {
+     margin: 0 277px;
+}
+
+/* faliures section styles */
+.failures {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 200px;
+     margin-bottom: 200px;
+
+}
+
+.failures-img {
+     width: 451px;
+     height: 898px;
+     
+}
+
+.failures-discription {
+     width: 416px;
+     margin-left: 134px;
+     text-align: left;
+     
+}
+
+.failures-titel {
+     color: #151414;
+     font-size: 40px;
+     font-weight: 700;
+
+}
+
+.failures-paragreph {
+     color: #444343;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+}
+
+ul>li {
+     list-style: none;
+     color: #444343;
+     text-align: left;
+}
+
+/* check icon style  */
+.check-icon {
+     color: green;
+     /* Change color as needed */
+     margin-right: 8px;
+     /* Space between icon and text */
 }
